@@ -1,6 +1,6 @@
 import passport from "passport";
 
-module.exports = passport.authenticate("jwt", {stategy:false});
+module.exports = passport.authenticate("jwt", {session:false});
 
 import jwt from "jsonwebtoken";
 import user from "../models/user";
